@@ -6,3 +6,7 @@
 /.cache
 /.classpath
 /.project
+/.ensime_lucene/
+/.ensime
+/akka-cli-interface.sublime-project
+/akka-cli-interface.sublime-workspace
