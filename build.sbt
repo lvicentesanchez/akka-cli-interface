@@ -14,6 +14,8 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
+  "com.ning" % "async-http-client" % "1.7.13",
   "com.typesafe.akka" %% "akka-actor" % "2.1.+",
-  "net.databinder.dispatch" %% "dispatch-core" % "0.9.+"
+  "io.netty" % "netty" % "3.6.5.Final",
+  "net.databinder.dispatch" %% "dispatch-core" % "0.10.+"
 )
